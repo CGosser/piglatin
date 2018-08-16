@@ -12,10 +12,6 @@ The program can identify when y is at the beginning of a word to treat as a cons
 	•	The program can identify if any alphabetical character is a vowel for use in other functions.
 	◦	example input : a
 	◦	example output: true
-
-	•	The program does nothing to non-alphabetical characters, since they do not contain consonants or vowels.
-	◦	Example Input: 3
-	◦	Example Output: 3
 	•	The program adds "ay" to single-letter words beginning with a vowel.
 	◦	Example Input: i
 	◦	Example Output: iay
@@ -30,7 +26,7 @@ The program can identify when y is at the beginning of a word to treat as a cons
 	◦	example output: 1
 	•	The program can identify multi-character words that begin with vowels to add “way” to the end.
 	•	example input: egg
-	•	example output: eggway	
+	•	example output: eggway
 	•	The program can identify when y is at the beginning of a word to treat as a consonant.
 	◦	example input : yellow
 	◦	example output: true
@@ -43,3 +39,6 @@ The program can identify when y is at the beginning of a word to treat as a cons
 	•	The program can identify and manipulate words beginning with a consonant block
 	◦	example input: fast
 	◦	example output: astfay
+	•	The program does nothing to non-alphabetical characters, since they do not contain consonants or vowels.
+	◦	Example Input: 3
+	◦	Example Output: 3
