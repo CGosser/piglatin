@@ -1,0 +1,45 @@
+Rules:
+	•	For words beginning with a vowel, add "way" to the end. 
+	•	For words beginning with one or more consonants, move all of the first consecutive consonants to the end, and add "ay". 
+	•	If the first consonants include "qu", move the "u" along with the "q". Don't forget about words like "squeal" where "qu" doesn't come first! 
+	•	For words beginning with "y", treat "y" as a consonant. 
+
+
+
+
+The program can identify when y is at the beginning of a word to treat as a consonant.
+
+	•	The program can identify if any alphabetical character is a vowel for use in other functions.
+	◦	example input : a
+	◦	example output: true
+
+	•	The program does nothing to non-alphabetical characters, since they do not contain consonants or vowels.
+	◦	Example Input: 3
+	◦	Example Output: 3
+	•	The program adds "ay" to single-letter words beginning with a vowel.
+	◦	Example Input: i
+	◦	Example Output: iay
+	•	The program can identify vowels in multi-character words to differentiate between vowels and consonants.
+	◦	example input : golf
+	◦	example output: o
+	•	The program can identify words apart from spaces and blank characters.
+	◦	example input: golf ball
+	◦	example output: “golf” “ball”
+	•	The program can identify the position of the vowels in words
+	◦	example input: golf
+	◦	example output: 1
+	•	The program can identify multi-character words that begin with vowels to add “way” to the end.
+	•	example input: egg
+	•	example output: eggway	
+	•	The program can identify when y is at the beginning of a word to treat as a consonant.
+	◦	example input : yellow
+	◦	example output: true
+	•	The program can move initial consonants to the end of a word.
+	◦	example input : golf
+	◦	example output : olfgay
+	•	The program can move the string “qu” and recognize the whole thing as a consonant
+	◦	example input: quit
+	◦	example output: itquay
+	•	The program can identify and manipulate words beginning with a consonant block
+	◦	example input: fast
+	◦	example output: astfay
